@@ -22,11 +22,20 @@ Apex, SOQL, Triggers, Batch and Schedulable Apex, Flow, Lightning Web Components
 - No SOQL in loops; one trigger per object with a handler class
 
 ## Screenshots
-![Data model](screenshots/data-model.png)
-![Double-booking error](screenshots/double-booking.png)
-![Flow](screenshots/flow.png)
-![Dashboard](screenshots/dashboard.png)
-![Test results](screenshots/tests.png)
+
+![Data model](Screenshots/data-model.png)
+
+![Double-booking error](Screenshots/double-booking.png)
+
+![Flow](Screenshots/flow.png)
+
+![Dashboard](Screenshots/dashboard.png)
+
+![Test results](Screenshots/tests.png)
+
+![Confirmation email](Screenshots/email.png)
+
+![Reminder email](Screenshots/reminder.png)
 
 ## Setup
 1. Create a free Salesforce Developer Edition org.
@@ -37,4 +46,4 @@ Apex, SOQL, Triggers, Batch and Schedulable Apex, Flow, Lightning Web Components
 6. Assign the **Doctor Access** permission set and add the dashboard page to the Healthcare app.
 
 ## Author
-SHASHANK DUMPALA | LinkedIn: https://www.linkedin.com/in/shashank-dumpala-a5b90127b
+shashank dumpala | LinkedIn: https://www.linkedin.com/in/shashank-dumpala-a5b90127b
