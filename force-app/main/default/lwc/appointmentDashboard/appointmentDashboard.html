@@ -1,0 +1,29 @@
+<template>
+    <lightning-card title="Upcoming Appointments" icon-name="standard:event">
+        <div class="slds-p-horizontal_medium">
+            <lightning-combobox
+                label="Filter by status"
+                value={selectedStatus}
+                options={statusOptions}
+                onchange={handleStatusChange}>
+            </lightning-combobox>
+
+            <template if:true={rows}>
+                <div class="slds-m-top_medium">
+                    <lightning-datatable
+                        key-field="id"
+                        data={rows}
+                        columns={columns}
+                        hide-checkbox-column>
+                    </lightning-datatable>
+                </div>
+            </template>
+
+            <template if:true={error}>
+                <p class="slds-text-color_error slds-m-top_medium">
+                    Could not load appointments. Please try again.
+                </p>
+            </template>
+        </div>
+    </lightning-card>
+</template>
