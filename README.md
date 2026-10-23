@@ -1,4 +1,4 @@
-# Healthcare Appointment and Patient Management (Salesforce)
+# Salesforce Projects: Healthcare Appointment Management and Loan Eligibility
 
 A Salesforce app that manages doctors, patients, appointments and prescriptions, with automation to prevent double-booking and to notify patients.
 
