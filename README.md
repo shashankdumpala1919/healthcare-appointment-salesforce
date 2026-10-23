@@ -45,5 +45,20 @@ Apex, SOQL, Triggers, Batch and Schedulable Apex, Flow, Lightning Web Components
 5. Run tests: `sf apex run test --test-level RunLocalTests --synchronous --target-org healthcare-dev`
 6. Assign the **Doctor Access** permission set and add the dashboard page to the Healthcare app.
 
+## Project 2: Loan Application Eligibility and Approval
+A bulkified Apex trigger scores each loan from income and loan amount. Small loans with a good score are approved, low scores are rejected, and loans above 500000 go to a manager approval process.
+
+- Validation rule: loan amount must be greater than zero
+- Approval process with final actions that set the status to Approved or Rejected
+- 5 Apex tests, including a 200-record bulk test
+
+![Approved loan](Screenshots/loan-approved.png)
+
+![Rejected loan](Screenshots/loan-rejected.png)
+
+![Approval process](Screenshots/loan-approval-process.png)
+
+![Test results](Screenshots/loan-tests.png)
+
 ## Author
 shashank dumpala | LinkedIn: https://www.linkedin.com/in/shashank-dumpala-a5b90127b
